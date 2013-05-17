@@ -26,12 +26,11 @@
             </intent-filter>
 
             <!--
-            Uncomment the following intent-filter to have the app show up in the app drawer
+            Uncomment the following intent-filter to have the app show up in the app drawer -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            -->
         </activity>
 
         <receiver android:name=".TorchReceiver" >
